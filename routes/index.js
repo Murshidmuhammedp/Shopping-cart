@@ -27,8 +27,7 @@ router.get('/', function (req, res, next) {
       price: 12999,
       description: "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
       link: "https://www.flipkart.com/samsung-galaxy-f15-5g-groovy-violet-128-gb/p/itm3e7d6c7112d45?pid=MOBGYBAVW8HTJH4X&lid=LSTMOBGYBAVW8HTJH4X9VTKYN&marketplace=FLIPKART&store=tyy%2F4io&srno=b_1_3&otracker=browse&fm=organic&iid=00ca4767-c6b7-47f0-bc07-0a9353aac929.MOBGYBAVW8HTJH4X.SEARCH&ppt=hp&ppn=homepage&ssid=fp8q1b6hyo0000001714994816509"
-    },
-
+    }
   ]
   res.render('index', { products });
 });
